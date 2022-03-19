@@ -1,0 +1,57 @@
+﻿Del linck del word : https://www.sigidwiki.com/wiki/Digital_Private_Mobile_Radio_(dPMR)
+
+	dPMR (Sistema de radio móvil personal, privado o profesional digital) es un estandar libre desarrollado por ETSI y publicado bajo ETSI TS 102 658.
+	Este estandar permite el envio tanto de tador como por voz con las siguientes caracteristicas:
+
+	*Multiplexado por FDMA con BW de 6.25Khz con una tasa de datos sin procesar de 4800bps (3600 para el usuario)
+	
+	*Modulación 4FSK con Bd=2400.
+	
+	*Mapeado de +/- 1050hz y +/-350hz cada dos bits desde la frecuencia central.
+
+	*Posibilidad de usar dos dPMR para no causar interferencias entre ellos dos u otros canales.
+	
+	*Frecuencias de transmisión en la banda libre europea 446.1-446.2Mhz.
+
+TIERS de la web https://www.electronics-notes.com/articles/connectivity/private-land-mobile-radio-pmr-lmr/dpmr-digital-pmr.php/
+	
+	dPMR se ha desarrollado en varios tiers o gamas acorde a las aplicaciones o complejidad requerida
+	
+	TIER1
+		Es el rango ajustado a un uno de bajo costo. Es la forma más simple de esta tecnología que permite interactuaciones peer-to-peer
+		sin la necesidad de usar repetidores o estaciones base.
+
+		Los niveles de potencia de esta gama están limitados a 0.5 vatios y solo está permitido el uso de equipamiendo portatil.
+		Y está sujeto a las limitaciones de los paises que habilitan su uso.
+		
+	Es interesante marcar que esta gama cumple con lo mencionado de transporte de datos y voz, con lo que podría emplearse para el tratamiento
+	de datos enbebidos como el posicionamiento GPS.
+
+	TIER2
+	
+	Esta gama está orientada al mercado profesional y ofrece tres modelos diferentes:
+		MODELO1: Es la version profesional del modelo PEERtoPEER. Es interesante mencionar que podriamos emplear el tier1
+		con el tier2 modelo1 simultaneamente sin problema.
+		Este modelo NO está atado a las limitaciones de la licencia gratuita, por lo que incluye funcionalidades adicionales
+		como llamadas de emergencia o prioridades.
+
+		MODELO2: Este modelo añade un nivel significatibamente mayor de funcionalidades al anterior. Añadiendo la posibilidad de
+		repetidores y estaciones base al sistema. Proporciona mayor flexibilidad habilitando la posibilidad de emplearlo como un
+		dispositivo inhalambrico de la red IP pudiendo usar PCs como base terminal.
+
+		MODELO3:Este modoelo frece operacióne de acceso administrado troncalizado. Brinda la capacidad de habilitar redes de radio multicanal
+		y multisitio que están completamente administradas por canales de baliza específicos.
+		Para esto tiene un sistema
+		La gestión de las redes de radio incluye la autenticación de las radios que deseen conectarse a la red.
+Además, las llamadas configuradas se pueden enrutar de muchas maneras: a otras radios, números de teléfono fijo o incluso direcciones IP.
+
+La asignación de canales de comunicación se realiza de forma dinámica, lo que permite al sistema optimizar el tráfico. Incluso puede modificar dinámicamente los tiempos de llamada permitidos. Además, las radios que fallan en la autenticación se pueden bloquear de forma temporal o permanente, una característica disponible en sistemas como GSM y otras redes celulares donde los equipos de usuarios rouge se pueden bloquear si son robados o no son adecuados para la red.
+
+El sistema también permite que las radios con autoridad se apropien de los canales, por ejemplo, para hacer llamadas de emergencia, etc. Además, cuando las solicitudes de llamadas excedan la capacidad, el sistema puede poner en cola estas llamadas hasta que los recursos estén disponibles. 
+	
+
+
+Páginas interesantes del estándar 2019:
+	P26: Hay una serie de valores de MT que indican diferentes mensajes.
+		También habla en "4.1.5.1.7" sobre el uso de hamming
+	P103: Habla sobre ACK.	
