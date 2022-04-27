@@ -55,3 +55,7 @@ Páginas interesantes del estándar 2019:
 	P26: Hay una serie de valores de MT que indican diferentes mensajes.
 		También habla en "4.1.5.1.7" sobre el uso de hamming
 	P103: Habla sobre ACK.	
+
+CODIFICACIONES:https://hmong.es/wiki/Digital_private_mobile_radio#:~:text=dPMR%20o%20radio%20m%C3%B3vil%20privada,referencia%20ETSI%20TS%20102%20658.
+
+dPMR admite varios algoritmos de codificación de voz. El equipo de clase A se basa en el codificador de voz AMBE + 2 , la clase R utiliza el codificador de voz RALCWI (interpolación de forma de onda robusta y avanzada de baja complejidad) y el equipo de clase M utiliza un algoritmo específico del fabricante. Los equipos de estas diferentes clases no son interoperables en modo digital y, por lo tanto, deben volver al modo FM analógico.
